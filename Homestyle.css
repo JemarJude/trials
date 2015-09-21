@@ -1,0 +1,107 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Slab', serif;
+	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('pictures/background.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container {
+	max-width: 940px;
+}
+
+
+/*Header*/
+.header {
+	height: 80px;
+	padding-bottom: 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header img {
+	height: 10%;
+	width: 10%;
+}
+
+.header ul {
+	list-style-type: none;
+	margin-left: -70px;
+	margin-top: 13px;
+}
+
+.header li {
+	display: inline;
+	padding-right: 30px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.header a {
+	text-decoration: none;
+	color: white;
+}
+
+.header a:hover {
+	color: black;
+}
+
+
+/*Jumbotron*/
+.jumbotron {
+	height: 250px;
+	position: relative;
+	background-color: transparent;
+	text-align: center;
+	color: white;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+}
+
+.jumbotron h1 {
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.jumbotron p {
+	font-size: x-large;
+}
+
+
+/*Content*/
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+}
+
+.content h3 {
+	color: white;
+	font-size: x-large;
+}
+
+.content p {
+	color: white;
+	font-size: large;
+}
+
+.content .container {
+	text-align: center;
+	color: black;
+}
+
+.content img {
+	height: 120px;
+	width: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
